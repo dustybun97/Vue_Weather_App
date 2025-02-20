@@ -7,7 +7,7 @@ const weather = ref(null) // เก็บข้อมูลอากาศ
 const errorMessage = ref('')
 
 const API_KEY = import.meta.env.VITE_APP_API_KEY; // 🔹 ใส่ API Key ของคุณที่นี่
-console.log('API_KEY:', API_KEY)
+// console.log('API_KEY:', API_KEY)
 
 const fetchWeather = async () => {
   if (!city.value) return
